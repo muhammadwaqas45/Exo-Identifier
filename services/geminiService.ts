@@ -4,7 +4,7 @@ export const predictExoplanet = async (
   data: any
 ): Promise<PredictionData & { modelName: string; trainAccuracy: number; testAccuracy: number }> => {
   try {
-const response = await fetch("https://exo-identifier-production.up.railway.app/predict", {
+const response = await fetch(`${process.env.BACKEND_URL}/predict`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
