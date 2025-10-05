@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1aHgdLb_FsShbDjWhSsI8_1Yz9_eNC4HU
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+# Kepler’s Legacy – AI Exoplanet Identifier
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Overview
+Kepler’s Legacy is an AI-powered web application that automatically analyzes exoplanet survey data from NASA missions (Kepler, K2, TESS) to classify celestial bodies as **Confirmed Exoplanets**, **Candidates**, or **False Positives**. This tool simplifies the identification process, allowing both researchers and enthusiasts to interact with exoplanet data through a user-friendly interface.
+
+## Features
+- **Manual or File Input:** Enter parameters manually or upload CSV/Excel datasets.
+- **AI Prediction:** Powered by a trained ML model for accurate classification.
+- **Interactive Visualizations:** Explore light curves and planetary characteristics.
+- **3D Solar System View:** Visualize predictions in a 3D environment.
+- **Demo Inputs:** Quickly test predictions with preloaded examples.
+
+## Technologies
+- **Frontend:** React, TypeScript, TailwindCSS, A-Frame (3D visualization)
+- **Backend:** Python Flask (for model inference)
+- **AI/ML:** Scikit-learn (pretrained Random Forest classifier)
+- **Data:** Public NASA datasets (Kepler, K2, TESS)
+
+## Getting Started
+1. Clone the repository:
+```bash
+git clone https://github.com/muhammadwaqas45/Exo-Identifier.git
+cd Exo-Identifier
