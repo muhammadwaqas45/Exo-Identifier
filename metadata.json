@@ -1,0 +1,5 @@
+{
+  "name": "Copy of AI Exoplanet Identifier first",
+  "description": "A modern, clean, and interactive web interface for an AI/ML exoplanet identification tool. Users can upload data or manually enter parameters to receive AI-powered predictions and visualizations.",
+  "requestFramePermissions": []
+}
